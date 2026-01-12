@@ -1,0 +1,21 @@
+fraud_scoring:
+  weights:
+    amount_vs_income_ratio_weight: 3.0
+    category_risk_score_weight: 1.5
+    channel_risk_score_weight: 1.2
+    entry_mode_risk_score_weight: 2.0
+    country_risk_score_weight: 1.0
+    is_night_transaction_weight: 1.0
+    is_international_weight: 1.0
+
+  thresholds:
+    min_amount_vs_income_ratio: 0.3
+    min_category_risk_score: 1.0
+    min_channel_risk_score: 1.0
+    min_entry_mode_risk_score: 1.0
+    min_country_risk_score: 1.0
+
+  labeling:
+    use_dynamic_threshold: true
+    target_fraud_rate: 0.03
+    min_score_threshold: 0.0

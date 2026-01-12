@@ -1,0 +1,4 @@
+amount_features: {
+  enable_high_amount_flags: true
+  high_amount_relative_threshold: 0.5
+}

@@ -1,0 +1,35 @@
+risk_features:
+
+  category_risk:
+    groceries: 0.5
+    electronics: 1.5
+    clothing: 0.8
+    restaurants: 0.7
+    utilities: 0.4
+    travel: 2.0
+    entertainment: 1.6
+    health: 0.6
+    education: 0.5
+    others: 1.0
+
+  channel_risk:
+    online: 2.0
+    mobile: 1.5
+    in-store: 0.7
+
+  entry_mode_risk:
+    manual: 3.0
+    swiped: 2.0
+    contactless: 1.0
+    chip: 0.5
+
+  country_risk:
+    ES: 0.6
+    FR: 0.7
+    DE: 0.7
+    US: 1.0
+    CN: 1.3
+    MX: 1.4
+    CA: 0.9
+
+  default_risk: 1.0   # fallback

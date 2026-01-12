@@ -1,0 +1,4 @@
+paths: 
+  raw_customers_data_path: "data/raw/customers.csv"
+  raw_transactions_data_path: "data/raw/transactions.csv"
+  output_data_path: "data/processed/dataset.csv"
